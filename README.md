@@ -20,6 +20,8 @@ npm run preview
 
 ## GitHub Pages
 
-Every push to `main` runs the production build and deploys `dist` through GitHub Actions. The public URL is https://stozo04.github.io/Gemini-Slot-Machine/.
+The tested production build is on the `gh-pages` branch, and Pages currently publishes that branch at https://stozo04.github.io/Gemini-Slot-Machine/.
+
+The included GitHub Actions workflow can build and deploy future pushes to `main` when the Pages publishing source is set to GitHub Actions. It uses read-only source access and narrowly scoped Pages deployment permissions. No workflow has permission to push repository branches.
 
 The Vite base path and symbol URLs are relative so the game and logos work under the repository path. The example environment file contains no credentials; no deployment secrets are required.
