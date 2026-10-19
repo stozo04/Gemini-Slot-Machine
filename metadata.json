@@ -1,0 +1,8 @@
+{
+  "name": "NEURAL JACKPOT: The AI Wars",
+  "description": "Futuristic 3D AI-themed 5-reel slot machine featuring authentic physics, 20 paylines, mathematical RTP diagnostics, and dynamic visual effects.",
+  "permissions": [],
+  "capabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
